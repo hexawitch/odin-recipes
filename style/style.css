@@ -25,19 +25,31 @@ img {
 }
 
 .index-link {
-    color:  rgb(239,226,152);
+    color:  white;
     font-family:    "Love", sans-serif
 }
 
+/* contains all navigable links */
 .index-navigate  {
     text-align:     center;
     background-color: rgb(223, 172, 106);
     padding:8%;
 }
 
-.index-links   {
-    padding: 25%;
-    background-color: rgb(223, 172, 106);
-    text-align:     center;
-    font-family:    "Love", sans-serif;
+/* rounded edges + empty space for a sort-of "button" look of recipes */
+.index-navigate .rounded  {
+    border-radius:  25px;
+    padding:        10px;
+}
+
+.index-navigate .cupcakes    {
+    background-color: rgb(114, 183, 223);
+}
+
+.index-navigate .cookies    {
+    background-color: rgb(224, 148, 33);
+}
+
+.index-navigate .limepie    {
+    background-color: rgb(60, 255, 0);
 }
