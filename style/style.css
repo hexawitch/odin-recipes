@@ -3,40 +3,40 @@
     src: url("../fonts/Love.ttf");
 }
 
+/* all-filling background color for every web page */
+html    {
+    height:100%;
+    background-color: rgb(223, 172, 106);
+}
+
+/*****************************************
+ **  Beginning of index.html styling    **
+ *****************************************/
 img {
-    /* background-color: rgb(223, 172, 106); */
-    display:        block;
+    display:        block;  /* generate box around img-Element to center it during next 2 lines */
     margin-left:    auto;
     margin-right:   auto;
     width:          360px;
 }
 
 .index-headline {
-    padding: 2%;
-    background-color: rgb(223, 172, 106);
-    color:white;
-    text-align:     center;
-    font-family:    "Love", sans-serif;
-}
-
-.landing-image  {
-    margin: auto;
-    background-color: rgb(223, 172, 106)
+    padding:                2%;
+    color:              white;
+    text-align:           center;
+    font-family:          "Love", sans-serif;
 }
 
 .index-link {
-    color:  white;
-    font-family:    "Love", sans-serif
+    color:          white;
+    font-family:      "Love", sans-serif
 }
 
-/* contains all navigable links */
+/* "button" containing all navigable links */
 .index-navigate  {
-    text-align:     center;
-    background-color: rgb(223, 172, 106);
-    padding:8%;
+    text-align:         center;
+    padding:            8%;
 }
-
-/* rounded edges + empty space for a sort-of "button" look of recipes */
+ 
 .index-navigate .rounded  {
     border-radius:  25px;
     padding:        10px;
@@ -52,4 +52,25 @@ img {
 
 .index-navigate .limepie    {
     background-color: rgb(60, 255, 0);
+}
+
+/***********************************************************
+ **  Beginning of lemon-blueberry-cupcakes.html styling   **
+ ***********************************************************/
+.return-to-index    {
+    font-family: "Love", sans-serif;
+    text-align: center;
+}
+
+.return-to-index .text-background   {
+    background-color: rgb(255, 255, 255);
+    padding:15px;
+}
+
+.return-to-index .rounded   {
+    border-radius: 10px;
+}
+
+.return-text    {
+    color:red;
 }
