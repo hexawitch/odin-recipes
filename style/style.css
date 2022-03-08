@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Love;
+    src: url("../fonts/Love.ttf");
+}
+
+img {
+    /* background-color: rgb(223, 172, 106); */
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto;
+    width:          360px;
+}
+
+.index-headline {
+    padding: 2%;
+    background-color: rgb(223, 172, 106);
+    color:white;
+    text-align:     center;
+    font-family:    "Love", sans-serif;
+}
+
+.landing-image  {
+    margin: auto;
+    background-color: rgb(223, 172, 106)
+}
+
+.index-link {
+    color:  rgba(239,226,152,255);
+    font-family:    "Love", sans-serif
+}
+
+.index-navigate  {
+    text-align:     center;
+    background-color: rgb(223, 172, 106);
+    padding:8%;
+}
+
+.index-links   {
+    padding: 25%;
+    background-color: rgb(223, 172, 106);
+    text-align:     center;
+    font-family:    "Love", sans-serif;
+}
